@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: kepler-qmax-api
+    runtime: docker
+    plan: starter
+    region: oregon
+    healthCheckPath: /health
+    envVars:
+      - key: KEPLER_API_KEY
+        generateValue: true
+      - key: PORT
+        value: 8000
