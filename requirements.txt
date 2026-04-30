@@ -4,6 +4,7 @@ pydantic==2.9.2
 numpy==1.26.4
 pennylane==0.38.0
 pennylane-qiskit==0.38.1
+torch==2.4.1
 qiskit==1.2.4
 qiskit-aer==0.15.1
 python-multipart==0.0.12
